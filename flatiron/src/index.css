@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#table {
+  border: 1px solid rgb(12, 11, 11);
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#heading {
+  /* font-style: italic; */
+  font-weight: bold;
+  margin-left: 30px;
+}
+.search-bar {
+  margin-left: 10px;
+  margin-right: 5px;
+  
+}
+#track {
+  text-align: left;
+  font-style: italic;
+}
+
+.form {
+  margin-left: 10px;
+}
+
+#mytable {
+  margin: 20px;
+  border-collapse: collapse;
+}
+.rows {
+  border: 1px solid black;
+  background-color: rgb(206, 28, 67);
+}
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-row td, .table-header th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-row td {
+  text-align: center;
+}
+
+
+
+
+th, td {
+  border: 1px solid black;
+  padding: 9px;
+  text-align: left;
+}
